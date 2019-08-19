@@ -4,7 +4,6 @@ import { render, fireEvent, act } from '@testing-library/react'
 import '@testing-library/jest-dom/extend-expect'
 
 import Dashboard from './Dashboard'
-import { findByText } from 'react-testing-library'
 
 describe('<Dashboard />', () => {
     it('renders', () => {
