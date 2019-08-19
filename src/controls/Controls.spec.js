@@ -11,9 +11,9 @@ describe('Controls />', () => {
     })
 
     it('should match snapshot', () => {
-        const dash = renderer.create(<Controls />)
+        const control = renderer.create(<Controls />)
 
-        expect(dash.toJSON()).toMatchSnapshot()
+        expect(control.toJSON()).toMatchSnapshot()
     })
 
     it('unlocked and open = lock gate disabled and close gate clickable', () => {

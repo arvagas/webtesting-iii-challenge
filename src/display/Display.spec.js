@@ -11,9 +11,9 @@ describe('Controls />', () => {
     })
 
     it('should match snapshot', () => {
-        const dash = renderer.create(<Display />)
+        const disp = renderer.create(<Display />)
 
-        expect(dash.toJSON()).toMatchSnapshot()
+        expect(disp.toJSON()).toMatchSnapshot()
     })
 
     it('displays unlocked when unlocked', () => {
